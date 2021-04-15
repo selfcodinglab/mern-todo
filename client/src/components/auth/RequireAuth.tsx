@@ -1,4 +1,3 @@
-import React from "react";
 
 const RequireAuth = (Component: any) => {
   return (props: any) => {

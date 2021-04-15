@@ -8,7 +8,7 @@ const User = require('./models/User');
 const bcrypt = require('bcrypt');
 const Todo = require('./models/Todo');
 
-mongoose.connect('mongodb+srv://admin:password4400123@cluster0.fez7g.mongodb.net/mern-todo');
+mongoose.connect('your url here');
 
 app.use(cors());
 app.use((bodyParser.json()));
